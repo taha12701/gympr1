@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header
+{
+  background-image: url('photo-1507398941214-572c25f4b1dc.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  color: whitesmoke; 
+  align-items: flex-end;
+}
+
+.line{
+  background-color: #fc036b;
+  width: 90px;
+  height: 4px;
+  margin: 7px auto;
+
+}
+
+.header-content{
+  margin-bottom: 230px;
+  text-align: center;
+}
+
+.header-content h2{
+  font-size: 4vmin;
+}
+
+.header-content h1{
+  font-size: 7vmin;
+}
